@@ -1,6 +1,8 @@
 CREATE DATABASE  IF NOT EXISTS `order`;
 USE `order`;
 
+
+
 DROP TABLE IF EXISTS `categories`;
 CREATE TABLE `categories` (
   `cid` int(11) NOT NULL AUTO_INCREMENT,
